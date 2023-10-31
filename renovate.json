@@ -1,11 +1,5 @@
 {
-  "extends": [
-    "config:base",
-    ":prHourlyLimitNone",
-    ":maintainLockFilesWeekly",
-    "docker:pinDigests",
-    "regexManagers:dockerfileVersions"
-  ],
+  "extends": ["config:base", "docker:pinDigests"],
   "packageRules": [
     {
       "matchDatasources": ["docker"],
