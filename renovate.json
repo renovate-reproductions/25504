@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "docker:pinDigests"],
+  "extends": ["config:base"],
   "packageRules": [
     {
       "matchDatasources": ["docker"],
